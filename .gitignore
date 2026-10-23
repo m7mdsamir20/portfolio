@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local tooling and AI Studio leftovers (not part of the site)
+.claude/
+.aistudio/
+public/assets/aistudio/
+
+# Design reference used while building the page
+Minimalist Orange-Accented Developer Portfolio Showcase.png
