@@ -22,13 +22,13 @@ export const About: React.FC = () => {
   return (
     <section id="about" className="py-8 sm:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
-        {/* Window Illustration */}
-        <div className="lg:col-span-5 flex justify-center items-center">
+        {/* Window Illustration — below the text on mobile, beside it on desktop */}
+        <div className="order-2 lg:order-1 lg:col-span-5 flex justify-center items-center">
           <AboutIllustration alt={t.about.imageAlt} />
         </div>
 
         {/* Text & Qualities */}
-        <div className="lg:col-span-7 flex flex-col justify-center">
+        <div className="order-1 lg:order-2 lg:col-span-7 flex flex-col justify-center">
           {/* Section Heading with hand-drawn underline */}
           <div className="mb-4">
             <h2 className="text-xl sm:text-2xl font-bold text-[#151515] tracking-tight mb-1.5">
